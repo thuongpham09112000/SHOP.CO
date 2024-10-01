@@ -1,0 +1,1445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <link rel="stylesheet" href="./Font/Satoshi_Complete/Satoshi_Complete/Fonts/WEB/css/satoshi.css">
+  <link rel="stylesheet" href="style.css" />
+  <title>Homepage</title>
+</head>
+
+<body>
+  <div class="promo-singup bg-dark">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="fake"></div>
+      <p>
+        Sign up and get 20% off to your first order.
+        <a class="text-white text-decoration-underline" href="#"> Sign Up Now</a>
+      </p>
+      <i class="bi bi-x"></i>
+    </div>
+  </div>
+  <header>
+    <div class="container">
+      <!-- <div class="d-flex justify-content-between align-items-center">
+        <div class="logo-nav d-flex justify-content-between align-items-center">
+          <div class="menu-header">
+            <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+              aria-controls="navbarScroll" aria-expanded="true" aria-label="Toggle navigation">
+              <img src="./image/icon/menu-header.svg" alt="menu-header">
+            </button>
+          </div>
+          <a href="#" class="logo-icon d-flex align-items-center mb-lg-0 text-decoration-none">
+            Shop.co
+          </a>
+          <ul class="nav mb-2 justify-content-center align-items-center flex-nowrap mb-md-0">
+            <li>
+              <a href="#" class="nav-link">
+                <span style="white-space: nowrap;">
+                  Shop
+                  <img src="./image/logo/down.png" alt="down" class="logo-down" />
+                </span>
+              </a>
+            </li>
+            <li><a href="#" class="nav-link" style="white-space: nowrap;">On Sale</a></li>
+            <li>
+              <a href="#" class="nav-link" style="white-space: nowrap;">New Arrivals</a>
+            </li>
+            <li><a href="#" class="nav-link" style="white-space: nowrap;">Brands</a></li>
+          </ul>
+        </div>
+        <div class="d-flex justify-content-between align-items-center w-100">
+          <div class="form-search-container">
+            <div class="search-mobile text-end">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-search"
+                aria-controls="nav-search" aria-expanded="true" aria-label="Toggle navigation">
+                <a href="#"><img src="./image/icon/search-mobile.svg" alt="search-mobile"></a>
+              </button>
+            </div>
+            <form class="form-search-item" role="search">
+              <div class="search-wrapper">
+                <img src="./image/icon/search.svg" alt="search">
+                <input type="search" class="form-control" placeholder="Search for products..."
+                  aria-label="Search for products..." />
+              </div>
+            </form>
+          </div>
+          <div class="text-end d-flex justify-content-end align-items-center">
+            <button type="button" class="cart-btn">
+              <img src="./image/logo/cart.png" alt="cart" class="cart" />
+            </button>
+            <button type="button" class="user-btn">
+              <img src="./image/logo/user.png" alt="user" class="user" />
+            </button>
+          </div>
+        </div>
+      </div> -->
+      <div class="main-header">
+        <div class="menu-header">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="true" aria-label="Toggle navigation">
+            <img src="./image/icon/menu-header.svg" alt="menu-header">
+          </button>
+        </div>
+        <div class="logo-header">
+          <a href="#" class="logo-icon d-flex align-items-center mb-lg-0 text-decoration-none">
+            Shop.co
+          </a>
+        </div>
+        <div class="nav-header">
+          <ul class="nav">
+            <li id="nav-shop" aria-expanded="false">
+              <a href="#" class="nav-link">
+                <span style="white-space: nowrap;">
+                  Shop
+                  <img src="./image/logo/down.png" alt="down" class="logo-down">
+                </span>
+              </a>
+              <ul id="shop-expand" class=" justify-content-center align-items-center flex-wrap g-3 ps-0 py-3 m-0" style="  width: 1000px; max-width: 1180px; list-style-type: none; display: none;">
+                <li><a href="#" class="nav-link m-3" style="white-space: nowrap;"><img src="./image/browse/Frame105.png" alt="Frame105"></a></li>
+                <li>
+                  <a href="#" class="nav-link m-3" style="white-space: nowrap;"><img src="./image/browse/Frame106.png" alt="Frame106"></a>
+                </li>
+                <li><a href="#" class="nav-link m-3" style="white-space: nowrap;"><img src="./image/browse/Frame107.png" alt="Frame107"></a></li>
+                <li><a href="#" class="nav-link m-3" style="white-space: nowrap;"><img src="./image/browse/Frame108.png" alt="Frame108"></a></li>
+              </ul>
+            </li>
+            <li><a href="#" class="nav-link" style="white-space: nowrap;">On Sale</a></li>
+            <li>
+              <a href="#" class="nav-link" style="white-space: nowrap;">New Arrivals</a>
+            </li>
+            <li><a href="#" class="nav-link" style="white-space: nowrap;">Brands</a></li>
+          </ul>
+        </div>
+        <div class="search-header">
+          <div class="form-search-container">
+            <div class="search-mobile text-end">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-search" aria-controls="nav-search" aria-expanded="true" aria-label="Toggle navigation">
+                <a href="#"><img src="./image/icon/search-mobile.svg" alt="search-mobile"></a>
+              </button>
+            </div>
+            <form class="form-search-item" role="search">
+              <div class="search-wrapper">
+                <img src="./image/icon/search.svg" alt="search">
+                <input type="search" class="form-control" placeholder="Search for products..." aria-label="Search for products...">
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="button-header">
+          <div class="text-end d-flex justify-content-end align-items-center">
+            <button type="button" class="cart-btn">
+              <img src="./image/logo/cart.png" alt="cart" class="cart">
+            </button>
+            <button type="button" class="user-btn">
+              <img src="./image/logo/user.png" alt="user" class="user">
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="navbar-collapse collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 500px;">
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2" data-bs-toggle="collapse" data-bs-target="#shop-scroll">
+              Shop
+              <img src="./image/logo/down.png" alt="down" class="logo-down" />
+            </a>
+            <div id="shop-scroll" class="navbar-collapse collapse ms-4">
+              <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+                <li class="nav-item"><a href="#" class="nav-link px-2">Casual</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2">Formal</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2">Party</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2">Gym</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2">On Sale</a>
+          </li>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link px-2">New Arrivals</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2">Brands</a>
+          </li>
+          </li>
+        </ul>
+      </div>
+      <div class="navbar-collapse collapse" id="nav-search">
+        <div class="search-wrapper navbar-nav  my-2 my-lg-0 justify-content-center">
+          <input type="search" class="form-control text-search" placeholder="Search for products..."
+            aria-label="Search for products...">
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <!-- Begin the banner section  -->
+    <section id="banner" class="banner">
+      <div class="container d-flex align-items-center justify-content-start" style="width: inherit;">
+        <div class="text">
+          <div class="text-content">
+            <h1>FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
+            <p>
+              Browse through our diverse range of meticulously crafted garments,
+              designed to bring out your individuality and cater to your sense
+              of style.
+            </p>
+            <button class="shop-btn d-flex justify-content-center align-items-center"><span>Shop Now</span></button>
+          </div>
+          <div class="stats">
+            <div class="stat-item">
+              <h3>200+</h3>
+              <span>International Brands</span>
+            </div>
+            <div class="border border-1"></div>
+            <div class="stat-item">
+              <h3>2,000+</h3>
+              <span>High-Quality Products</span>
+            </div>
+            <div class="border border-1"></div>
+            <div class="stat-item">
+              <h3>30,000+</h3>
+              <span>Happy Customers</span>
+            </div>
+          </div>
+          <div class="stats-secondary">
+            <div class="stat-item d-flex justify-content-evenly align-items-center"
+              style="height: 100%; width: 100%; margin-bottom: 12px;">
+              <div class="stat-item">
+                <h3>200+</h3>
+                <span>International Brands</span>
+              </div>
+              <div class="border border-1" style="height: 52px;"></div>
+              <div class="stat-item">
+                <h3>2,000+</h3>
+                <span>High-Quality Products</span>
+              </div>
+            </div>
+            <div class="stat-item">
+              <h3>30,000+</h3>
+              <span>Happy Customers</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="banner-small"><img src="./image/banner/banner-small.png" alt="banner-small"></div> -->
+    </section>
+    <!-- End the banner section  -->
+
+    <!-- Begin the brand section  -->
+    <section class="brand d-flex justify-content-center align-items-center mb-2">
+      <div class="container">
+        <div class="list-brand d-flex justify-content-xxl-between justify-content-center align-items-center">
+          <div class="text-center">
+            <img src="./image/logo/versace-logo.svg" alt="versace">
+          </div>
+          <div class="text-center">
+            <img src="./image/logo/zara-logo.svg" alt="zara">
+          </div>
+          <div class="text-center">
+            <img src="./image/logo/gucci-logo.svg" alt="gucci">
+          </div>
+          <div class="text-center">
+            <img src="./image/logo/prada-logo.svg" alt="prada">
+          </div>
+          <div class="text-center">
+            <img src="./image/logo/calvin-klein-logo.svg" alt="calvin">
+          </div>
+        </div>
+        <div class="list-brand-small">
+          <div class="list-brand-small-item d-flex justify-content-between flex-nowrap">
+            <div class="text-center">
+              <img src="./image/logo/versace-logo.svg" alt="versace">
+            </div>
+            <div class="text-center">
+              <img src="./image/logo/zara-logo.svg" alt="zara">
+            </div>
+            <div class="text-center">
+              <img src="./image/logo/gucci-logo.svg" alt="gucci">
+            </div>
+          </div>
+          <div class="list-brand-small-item d-flex justify-content-between flex-nowrap">
+            <div></div>
+            <div class="text-center">
+              <img src="./image/logo/prada-logo.svg" alt="prada">
+            </div>
+            <div class="text-center">
+              <img src="./image/logo/calvin-klein-logo.svg" alt="calvin">
+            </div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End the brand section  -->
+
+    <!-- Begin the new-arrivals section  -->
+    <section class="new-arrivals">
+      <div class="section-titles">
+        <h1>NEW ARRIVALS</h1>
+      </div>
+      <div id="new-arrivals-primary" class="container">
+        <div id="product-list" class="row row-cols-2 row-cols-sm-2 row-cols-md-4">
+          <div class="col p-0">
+            <div class="card">
+              <a href="#" style="">
+                <img src="./image/productcard/card-img1.png" alt="card-img1">
+              </a>
+              <div class="card-body">
+                <a href="#">
+                  <p class="card-text fw-bold">T-shirt with Tape Details</p>
+                </a>
+                <div class="evaluate d-flex flex-wrap">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <img src="./image/Stars/half-star.png" alt="half-star">
+                  <span>4,5/</span><span>5</span>
+                </div>
+                <div class="card-price">
+                  <p>$120</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col p-0">
+            <div class="card">
+              <a href="#" style="">
+                <img src="./image/productcard/card-img2.png" alt="card-img2">
+              </a>
+              <div class="card-body">
+                <a href="#">
+                  <p class="card-text fw-bold">Skinny Fit Jeans</p>
+                </a>
+                <div class="evaluate">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <img src="./image/Stars/half-star.png" alt="half-star">
+                  <span>3,5/</span><span>5</span>
+                </div>
+                <div class="card-price">
+                  <p>$240</p>
+                  <p class="text-decoration-line-through text-opacity-04">
+                    $260
+                  </p>
+                  <span class="alert alert-danger rounded-pill">-20%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col p-0">
+            <div class="card">
+              <a href="#" style="">
+                <img src="./image/productcard/card-img3.png" alt="card-img3">
+              </a>
+              <div class="card-body">
+                <a href="#">
+                  <p class="card-text fw-bold">Checkered Shirt</p>
+                </a>
+                <div class="evaluate">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <img src="./image/Stars/half-star.png" alt="half-star">
+                  <span>4,5/</span><span>5</span>
+                </div>
+                <div class="card-price">
+                  <p>$180</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col p-0">
+            <div class="card">
+              <a href="#" style="">
+                <img src="./image/productcard/card-img4.png" alt="card-img4">
+              </a>
+              <div class="card-body">
+                <a href="#">
+                  <p class="card-text fw-bold">Sleeve Striped T-shirt</p>
+                </a>
+                <div class="evaluate">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <img src="./image/Stars/half-star.png" alt="half-star">
+                  <span>4,5/</span><span>5</span>
+                </div>
+                <div class="card-price">
+                  <p>$130</p>
+                  <p class="text-decoration-line-through text-opacity-04">
+                    $160
+                  </p>
+                  <span class="alert alert-danger rounded-pill">-30%</span>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+      <div id="new-arrivals-secondary" style="padding-top: 32px;">
+        <div class="carousel"
+          data-flickity='{ "freeScroll": true, "contain": true, "prevNextButtons": false, "pageDots": false, "groupCells": 1}'>
+          <div class="carousel-cell">
+            <div class="card">
+              <img src="./image/productcard/card-img1.png" alt="card-img1" />
+              <div class="card-body">
+                <div class="card-text fw-bold">T-shirt with Tape Details</div>
+                <div class="evaluate">
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/half-star.png" alt="half-star" />
+                  <span>4,5/</span><span>5</span>
+                </div>
+                <div class="card-price">
+                  <p>$120</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="card">
+              <img src="./image/productcard/card-img2.png" alt="card-img2" />
+              <div class="card-body">
+                <div class="card-text fw-bold">Skinny Fit Jeans</div>
+                <div class="evaluate">
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/half-star.png" alt="half-star" />
+                  <span>3,5/</span><span>5</span>
+                </div>
+                <div class="card-price">
+                  <p>$240</p>
+                  <p class="text-decoration-line-through text-opacity-04">
+                    $260
+                  </p>
+                  <span class="alert alert-danger rounded-pill">-20%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="card">
+              <img src="./image/productcard/card-img3.png" alt="card-img3" />
+              <div class="card-body">
+                <div class="card-text fw-bold">Checkered Shirt</div>
+                <div class="evaluate">
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/half-star.png" alt="half-star" />
+                  <span>4,5/</span><span>5</span>
+                </div>
+                <div class="card-price">
+                  <p>$180</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="card">
+              <img src="./image/productcard/card-img4.png" alt="card-img4" />
+              <div class="card-body">
+                <div class="card-text fw-bold">Sleeve Striped T-shirt</div>
+                <div class="evaluate">
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/half-star.png" alt="half-star" />
+                  <span>4,5/</span><span>5</span>
+                </div>
+                <div class="card-price">
+                  <p>$130</p>
+                  <p class="text-decoration-line-through text-opacity-04">
+                    $160
+                  </p>
+                  <span class="alert alert-danger rounded-pill">-30%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="card">
+              <img src="./image/productcard/card-img1.png" alt="card-img1" />
+              <div class="card-body">
+                <div class="card-text fw-bold">T-shirt with Tape Details</div>
+                <div class="evaluate">
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/half-star.png" alt="half-star" />
+                  <span>4,5/</span><span>5</span>
+                </div>
+                <div class="card-price">
+                  <p>$120</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="card">
+              <img src="./image/productcard/card-img2.png" alt="card-img2" />
+              <div class="card-body">
+                <div class="card-text fw-bold">Skinny Fit Jeans</div>
+                <div class="evaluate">
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/half-star.png" alt="half-star" />
+                  <span>3,5/</span><span>5</span>
+                </div>
+                <div class="card-price">
+                  <p>$240</p>
+                  <p class="text-decoration-line-through text-opacity-04">
+                    $260
+                  </p>
+                  <span class="alert alert-danger rounded-pill">-20%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="card">
+              <img src="./image/productcard/card-img3.png" alt="card-img3" />
+              <div class="card-body">
+                <div class="card-text fw-bold">Checkered Shirt</div>
+                <div class="evaluate">
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/half-star.png" alt="half-star" />
+                  <span>4,5/</span><span>5</span>
+                </div>
+                <div class="card-price">
+                  <p>$180</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="card">
+              <img src="./image/productcard/card-img4.png" alt="card-img4" />
+              <div class="card-body">
+                <div class="card-text fw-bold">Sleeve Striped T-shirt</div>
+                <div class="evaluate">
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/half-star.png" alt="half-star" />
+                  <span>4,5/</span><span>5</span>
+                </div>
+                <div class="card-price">
+                  <p>$130</p>
+                  <p class="text-decoration-line-through text-opacity-04">
+                    $160
+                  </p>
+                  <span class="alert alert-danger rounded-pill">-30%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="see-all-button">
+        <button type="button" class="btn d-flex justify-content-center align-items-center"><span>View All</span></button>
+      </div>
+    </section>
+    <!-- End the new-arrivals section  -->
+
+    <div class="separating-bar container mt-2">
+      <div class="border border-dark"></div>
+    </div>
+
+    <!-- Begin the top-selling section  -->
+    <section class="top-selling">
+      <div class="section-titles">
+        <h1>TOP SELLING</h1>
+      </div>
+      <div id="top-selling-primary" class="container">
+        <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4">
+          <div class="col p-0">
+            <div class="card">
+              <a href="#">
+                <img src="./image/productcard/card-img5.png" alt="card-img5" />
+              </a>
+              <div class="card-body">
+                <a href="#">
+                  <p class="card-text fw-bold">Vertical Striped Shirt</p>
+                </a>
+                <div class="evaluate">
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <span>5.0/</span><span>5</span>
+                </div>
+                <div class="card-price">
+                  <p>$212</p>
+                  <p class="text-decoration-line-through text-opacity-04">
+                    $232
+                  </p>
+                  <span class="alert alert-danger rounded-pill">-20%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col p-0">
+            <div class="card">
+              <a href="#">
+                <img src="./image/productcard/card-img6.png" alt="card-img6" />
+              </a>
+              <div class="card-body">
+                <a href="#">
+                  <p class="card-text fw-bold">Courage Graphic T-shirt</p>
+                </a>
+                <div class="evaluate">
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <span>4.0/</span><span>5</span>
+                </div>
+                <div class="card-price">
+                  <p>$145</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col p-0">
+            <div class="card">
+              <a href="#">
+                <img src="./image/productcard/card-img7.png" alt="card-img7" />
+              </a>
+              <div class="card-body">
+                <a href="#">
+                  <p class="card-text fw-bold">Loose Fit Bermuda Shorts</p>
+                </a>
+                <div class="evaluate">
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <span>3.0/</span><span>5</span>
+                </div>
+                <div class="card-price">
+                  <p>$80</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col p-0">
+            <div class="card">
+              <a href="#">
+                <img src="./image/productcard/card-img8.png" alt="card-img8" />
+              </a>
+              <div class="card-body">
+                <a href="#">
+                  <p class="card-text fw-bold">Faded Skinny Jeans</p>
+                </a>
+                <div class="evaluate">
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/half-star.png" alt="half-star" />
+                  <span>4,5/</span><span>5</span>
+                </div>
+                <div class="card-price">
+                  <p>$210</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="top-selling-secondary" style="padding-top: 32px;">
+        <div class="carousel"
+          data-flickity='{ "freeScroll": true,"contain": true, "prevNextButtons": false, "pageDots": false, "groupCells": 1}'>
+          <div class="carousel-cell">
+            <div class="card ps-3">
+              <img src="./image/productcard/card-img5.png" alt="card-img5" />
+              <div class="card-body">
+                <div class="card-text fw-bold">Vertical Striped Shirt</div>
+                <div class="evaluate">
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <span>5.0/</span><span>5</span>
+                </div>
+                <div class="card-price">
+                  <p>$212</p>
+                  <p class="text-decoration-line-through text-opacity-04">
+                    $232
+                  </p>
+                  <span class="alert alert-danger rounded-pill">-20%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="card">
+              <img src="./image/productcard/card-img6.png" alt="card-img6">
+              <div class="card-body">
+                <div class="card-text fw-bold">Courage Graphic T-shirt</div>
+                <div class="evaluate">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <span>4.0/</span><span>5</span>
+                </div>
+                <div class="card-price">
+                  <p>$145</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="card">
+              <img src="./image/productcard/card-img7.png" alt="card-img7">
+              <div class="card-body">
+                <div class="card-text fw-bold">Loose Fit Bermuda Shorts</div>
+                <div class="evaluate">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <span>3.0/</span><span>5</span>
+                </div>
+                <div class="card-price">
+                  <p>$80</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="card">
+              <img src="./image/productcard/card-img8.png" alt="card-img8">
+              <div class="card-body">
+                <div class="card-text fw-bold">Faded Skinny Jeans</div>
+                <div class="evaluate">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <img src="./image/Stars/half-star.png" alt="half-star">
+                  <span>4,5/</span><span>5</span>
+                </div>
+                <div class="card-price">
+                  <p>$210</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="card ps-3">
+              <img src="./image/productcard/card-img5.png" alt="card-img5" />
+              <div class="card-body">
+                <div class="card-text fw-bold">Vertical Striped Shirt</div>
+                <div class="evaluate">
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <img src="./image/Stars/star.png" alt="star" />
+                  <span>5.0/</span><span>5</span>
+                </div>
+                <div class="card-price">
+                  <p>$212</p>
+                  <p class="text-decoration-line-through text-opacity-04">
+                    $232
+                  </p>
+                  <span class="alert alert-danger rounded-pill">-20%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="card">
+              <img src="./image/productcard/card-img6.png" alt="card-img6">
+              <div class="card-body">
+                <div class="card-text fw-bold">Courage Graphic T-shirt</div>
+                <div class="evaluate">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <span>4.0/</span><span>5</span>
+                </div>
+                <div class="card-price">
+                  <p>$145</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="card">
+              <img src="./image/productcard/card-img7.png" alt="card-img7">
+              <div class="card-body">
+                <div class="card-text fw-bold">Loose Fit Bermuda Shorts</div>
+                <div class="evaluate">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <span>3.0/</span><span>5</span>
+                </div>
+                <div class="card-price">
+                  <p>$80</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="card">
+              <img src="./image/productcard/card-img8.png" alt="card-img8">
+              <div class="card-body">
+                <div class="card-text fw-bold">Faded Skinny Jeans</div>
+                <div class="evaluate">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <img src="./image/Stars/star.png" alt="star">
+                  <img src="./image/Stars/half-star.png" alt="half-star">
+                  <span>4,5/</span><span>5</span>
+                </div>
+                <div class="card-price">
+                  <p>$210</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="see-all-button pb-3">
+        <button type="button" class="btn d-flex justify-content-center align-items-center"><span>View All</span></button>
+      </div>
+    </section>
+    <!-- End the top-selling section  -->
+
+    <!-- Begin the browse-by-style section  -->
+    <section class="browse-by-style">
+      <div class="container">
+        <div class="bg-browse-by-style">
+          <div class="section-titles">
+            <h1>BROWSE BY DRESS STYLE</h1>
+          </div>
+          <div class="choose-style-primary">
+            <div class="choose-style-item">
+              <div class="img-style-1"><img src="./image/browse/Frame61.png" alt="Frame61"></div>
+              <div class="img-style-2"><img src="./image/browse/Frame62.png" alt="Frame62"></div>
+            </div>
+            <div class="choose-style-item">
+              <div class="img-style-3"><img src="./image/browse/Frame64.png" alt="Frame64"></div>
+              <div class="img-style-4"><img src="./image/browse/Frame63.png" alt="Frame63"></div>
+            </div>
+          </div>
+          <div class="choose-style-secondary">
+            <div class="choose-style-item">
+              <div class="img-style-1"><img src="./image/browse/Frame105.png" alt="Frame105"></div>
+              <div class="img-style-2"><img src="./image/browse/Frame106.png" alt="Frame106"></div>
+            </div>
+            <div class="choose-style-item">
+              <div class="img-style-3"><img src="./image/browse/Frame107.png" alt="Frame107"></div>
+              <div class="img-style-4"><img src="./image/browse/Frame108.png" alt="Frame108"></div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- End the browse-by-style section  -->
+
+    <div class="mt-3"></div>
+
+    <!-- Begin the happy-customers section  -->
+    <section class="happy-customers">
+      <div class="container">
+        <div class="section-titles d-flex justify-content-between">
+          <h1>OUR HAPPY CUSTOMERS</h1>
+          <div class="happy-customers-button d-flex justify-content-end align-items-end d-none d-lg-flex">
+            <button class="carousel-control-prev px-2" style="width: fit-content;" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <img src="./image/icon/pre.svg" alt="pre">
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next px-2" style="width: fit-content;" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <img src="./image/icon/next.svg" alt="next">
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="happy-customers-button-tablet d-flex justify-content-end align-items-end d-none d-md-flex d-lg-none">
+            <button class="carousel-control-prev px-2" style="width: fit-content;" type="button" data-bs-target="#carouselExampleControls-tablet"
+              data-bs-slide="prev">
+              <img src="./image/icon/pre.svg" alt="pre">
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next px-2" style="width: fit-content;" type="button" data-bs-target="#carouselExampleControls-tablet"
+              data-bs-slide="next">
+              <img src="./image/icon/next.svg" alt="next">
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="happy-customers-button-mobile d-flex justify-content-end align-items-end d-flex d-md-none">
+            <button class="carousel-control-prev px-2" style="width: fit-content;" type="button" data-bs-target="#carouselExampleControls-mobile"
+              data-bs-slide="prev">
+              <img src="./image/icon/pre.svg" alt="pre">
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next px-2" style="width: fit-content;" type="button" data-bs-target="#carouselExampleControls-mobile"
+              data-bs-slide="next">
+              <img src="./image/icon/next.svg" alt="next">
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide d-none d-lg-block">
+          <div class="carousel-inner">
+            <div class="carousel-item w-100 ps-3 pe-3 active">
+              <div class="row row-cols-3">
+                <div class="col p-0 ">
+                  <div class="card-body border border-1">
+                    <div class="card-content">
+                      <div class="evaluate">
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                      </div>
+                      <div class="d-flex g-1">
+                        <p class="card-text fw-bold">Sarah M.</p>
+                        <img src="./image/icon/green-area.svg" alt="green-area">
+                      </div>
+                      <q>I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear
+                        to
+                        elegant dresses, every piece I've bought has exceeded my expectations.</q>
+                    </div>
+                  </div>
+                </div>
+                <div class="col" style="padding: 0 20px;">
+                  <div class="card-body border border-1">
+                    <div class="card-content">
+                      <div class="evaluate">
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                      </div>
+                      <div class="d-flex g-1">
+                        <p class="card-text fw-bold">Alex K. </p>
+                        <img src="./image/icon/green-area.svg" alt="green-area">
+                      </div>
+                      <q>Finding clothes that align with my personal style used to be a challenge until I discovered
+                        Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and
+                        occasions.</q>
+                    </div>
+                  </div>
+                </div>
+                <div class="col p-0 ">
+                  <div class="card-body border border-1">
+                    <div class="card-content">
+                      <div class="evaluate">
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                      </div>
+                      <div class="d-flex g-1">
+                        <p class="card-text fw-bold">James L. </p>
+                        <img src="./image/icon/green-area.svg" alt="green-area">
+                      </div>
+                      <q>As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled
+                        upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest
+                        trends.</q>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item w-100 ps-3 pe-3">
+              <div class="row row-cols-3">
+                <div class="col">
+                  <div class="card-body border border-1">
+                    <div class="card-content">
+                      <div class="evaluate">
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                      </div>
+                      <div class="d-flex g-1">
+                        <p class="card-text fw-bold">Sarah M.</p>
+                        <img src="./image/icon/green-area.svg" alt="green-area">
+                      </div>
+                      <q>I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear
+                        to
+                        elegant dresses, every piece I've bought has exceeded my expectations.</q>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card-body border border-1">
+                    <div class="card-content">
+                      <div class="evaluate">
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                      </div>
+                      <div class="d-flex g-1">
+                        <p class="card-text fw-bold">Alex K. </p>
+                        <img src="./image/icon/green-area.svg" alt="green-area">
+                      </div>
+                      <q>Finding clothes that align with my personal style used to be a challenge until I discovered
+                        Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and
+                        occasions.</q>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card-body border border-1">
+                    <div class="card-content">
+                      <div class="evaluate">
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                      </div>
+                      <div class="d-flex g-1">
+                        <p class="card-text fw-bold">James L. </p>
+                        <img src="./image/icon/green-area.svg" alt="green-area">
+                      </div>
+                      <q>As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled
+                        upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest
+                        trends.</q>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item w-100 ps-3 pe-3 ">
+              <div class="row row-cols-3">
+                <div class="col">
+                  <div class="card-body border border-1">
+                    <div class="card-content">
+                      <div class="evaluate">
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                      </div>
+                      <div class="d-flex g-1">
+                        <p class="card-text fw-bold">Sarah M.</p>
+                        <img src="./image/icon/green-area.svg" alt="green-area">
+                      </div>
+                      <q>I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear
+                        to
+                        elegant dresses, every piece I've bought has exceeded my expectations.</q>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card-body border border-1">
+                    <div class="card-content">
+                      <div class="evaluate">
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                      </div>
+                      <div class="d-flex g-1">
+                        <p class="card-text fw-bold">Alex K. </p>
+                        <img src="./image/icon/green-area.svg" alt="green-area">
+                      </div>
+                      <q>Finding clothes that align with my personal style used to be a challenge until I discovered
+                        Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and
+                        occasions.</q>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card-body border border-1">
+                    <div class="card-content">
+                      <div class="evaluate">
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                      </div>
+                      <div class="d-flex g-1">
+                        <p class="card-text fw-bold">James L. </p>
+                        <img src="./image/icon/green-area.svg" alt="green-area">
+                      </div>
+                      <q>As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled
+                        upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest
+                        trends.</q>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="carouselExampleControls-tablet" class="carousel slide d-none d-md-block d-lg-none"
+          data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item w-100 ps-3 pe-3 active">
+              <div class="row row-cols-2">
+                <div class="col ps-0 pe-3">
+                  <div class="card-body border border-1">
+                    <div class="card-content">
+                      <div class="evaluate">
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                      </div>
+                      <div class="d-flex g-1">
+                        <p class="card-text fw-bold">Sarah M.</p>
+                        <img src="./image/icon/green-area.svg" alt="green-area">
+                      </div>
+                      <q>I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear
+                        to
+                        elegant dresses, every piece I've bought has exceeded my expectations.</q>
+                    </div>
+                  </div>
+                </div>
+                <div class="col p-0">
+                  <div class="card-body border border-1">
+                    <div class="card-content">
+                      <div class="evaluate">
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                      </div>
+                      <div class="d-flex g-1">
+                        <p class="card-text fw-bold">Alex K. </p>
+                        <img src="./image/icon/green-area.svg" alt="green-area">
+                      </div>
+                      <q>Finding clothes that align with my personal style used to be a challenge until I discovered
+                        Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and
+                        occasions.</q>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item w-100 ps-3 pe-3">
+              <div class="row row-cols-2">
+                <div class="col ps-0 pe-3">
+                  <div class="card-body border border-1">
+                    <div class="card-content">
+                      <div class="evaluate">
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                      </div>
+                      <div class="d-flex g-1">
+                        <p class="card-text fw-bold">James L. </p>
+                        <img src="./image/icon/green-area.svg" alt="green-area">
+                      </div>
+                      <q>As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled
+                        upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest
+                        trends.</q>
+                    </div>
+                  </div>
+                </div>
+                <div class="col p-0">
+                  <div class="card-body border border-1">
+                    <div class="card-content">
+                      <div class="evaluate">
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                      </div>
+                      <div class="d-flex g-1">
+                        <p class="card-text fw-bold">Sarah M.</p>
+                        <img src="./image/icon/green-area.svg" alt="green-area">
+                      </div>
+                      <q>I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear
+                        to
+                        elegant dresses, every piece I've bought has exceeded my expectations.</q>
+                    </div>
+                  </div>
+  
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item w-100 ps-3 pe-3 ">
+              <div class="row row-cols-2">
+                <div class="col ps-0 pe-3">
+                  <div class="card-body border border-1">
+                    <div class="card-content">
+                      <div class="evaluate">
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                      </div>
+                      <div class="d-flex g-1">
+                        <p class="card-text fw-bold">Alex K. </p>
+                        <img src="./image/icon/green-area.svg" alt="green-area">
+                      </div>
+                      <q>Finding clothes that align with my personal style used to be a challenge until I discovered
+                        Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and
+                        occasions.</q>
+                    </div>
+                  </div>
+                </div>
+                <div class="col p-0">
+                  <div class="card-body border border-1">
+                    <div class="card-content">
+                      <div class="evaluate">
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                      </div>
+                      <div class="d-flex g-1">
+                        <p class="card-text fw-bold">James L. </p>
+                        <img src="./image/icon/green-area.svg" alt="green-area">
+                      </div>
+                      <q>As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled
+                        upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest
+                        trends.</q>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="carouselExampleControls-mobile" class="carousel slide d-block d-md-none"
+          data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item w-100 active">
+              <div class="row row-cols-1 align-items-center">
+                <div class="col">
+                  <div class="card-body border border-1">
+                    <div class="card-content">
+                      <div class="evaluate">
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                      </div>
+                      <div class="d-flex g-1">
+                        <p class="card-text fw-bold">Sarah M.</p>
+                        <img src="./image/icon/green-area.svg" alt="green-area">
+                      </div>
+                      <q>I'm blown away by the quality and style of the clothes I received from Shop.co. From casual
+                        wear
+                        to
+                        elegant dresses, every piece I've bought has exceeded my expectations.</q>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item w-100">
+              <div class="row row-cols-1">
+                <div class="col">
+                  <div class="card-body border border-1">
+                    <div class="card-content">
+                      <div class="evaluate">
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                      </div>
+                      <div class="d-flex g-1">
+                        <p class="card-text fw-bold">Alex K. </p>
+                        <img src="./image/icon/green-area.svg" alt="green-area">
+                      </div>
+                      <q>Finding clothes that align with my personal style used to be a challenge until I discovered
+                        Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes
+                        and
+                        occasions.</q>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item w-100">
+              <div class="row row-cols-1">
+                <div class="col">
+                  <div class="card-body border border-1">
+                    <div class="card-content">
+                      <div class="evaluate">
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                        <img src="./image/Stars/star.png" alt="star" />
+                      </div>
+                      <div class="d-flex g-1">
+                        <p class="card-text fw-bold">James L. </p>
+                        <img src="./image/icon/green-area.svg" alt="green-area">
+                      </div>
+                      <q>As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled
+                        upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest
+                        trends.</q>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- End the happy-customers section  -->
+  </main>
+  <footer>
+    <div class="newsletter">
+      <div class="container">
+        <div class="bg-newsletter">
+          <form class="d-flex justify-content-between align-items-center flex-wrap">
+            <h5>STAY UPTO DATE ABOUT OUR LATEST OFFERS</h5>
+            <div class="enter-email d-flex flex-column justify-content-between">
+              <div class="form-control rounded-pill d-flex align-items-center">
+                <img src="./image/logo/mail.svg" alt="mail">
+                <input type="text" style="border: none; width: 100%; margin-left: 12px;"
+                  placeholder="Enter your email address">
+              </div>
+              <button class="btn btn-light rounded-pill" type="button">Subscribe to Newsletter</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="general-information">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-12 col-lg-3">
+            <div class="logo-icon">shop.co</div>
+            <p class="text-muted">We have clothes that suits your style and which you’re proud to wear. From
+              women to men</p>
+            <div class="contact-information">
+              <a href="#">
+                <img src="./image/logo/twitter.png" alt="twitter">
+              </a>
+              <a href="#">
+                <img src="./image/logo/facebook.png" alt="facebook">
+              </a>
+              <a href="#">
+                <img src="./image/logo/instagram.png" alt="instagram">
+              </a>
+              <a href="#">
+                <img src="./image/logo/git.png" alt="git">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-6 col-lg-2">
+            <h5 class="text-uppercase">Company</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a href="#" class="nav-link p-0">About</a></li>
+              <li class="nav-item"><a href="#" class="nav-link p-0">Features</a></li>
+              <li class="nav-item"><a href="#" class="nav-link p-0">Works</a></li>
+              <li class="nav-item"><a href="#" class="nav-link p-0">Career</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-lg-2">
+            <h5 class="text-uppercase">Help</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a href="#" class="nav-link p-0">Customer
+                  Support</a></li>
+              <li class="nav-item"><a href="#" class="nav-link p-0">Delivery
+                  Details</a></li>
+              <li class="nav-item"><a href="#" class="nav-link p-0">Terms &
+                  Conditions</a></li>
+              <li class="nav-item"><a href="#" class="nav-link p-0">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-lg-2">
+            <h5 class="text-uppercase">FAQ</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a href="#" class="nav-link p-0">Account</a></li>
+              <li class="nav-item"><a href="#" class="nav-link p-0">Manage
+                  Deliveries</a></li>
+              <li class="nav-item"><a href="#" class="nav-link p-0">Orders</a></li>
+              <li class="nav-item"><a href="#" class="nav-link p-0">Payments</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-lg-2">
+            <h5 class="text-uppercase">Resources</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a href="#" class="nav-link p-0">Free eBooks</a>
+              </li>
+              <li class="nav-item"><a href="#" class="nav-link p-0">Development
+                  Tutorial</a></li>
+              <li class="nav-item"><a href="#" class="nav-link p-0">How to - Blog</a>
+              </li>
+              <li class="nav-item"><a href="#" class="nav-link p-0">Youtube
+                  Playlist</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="d-flex flex-column flex-sm-row justify-content-between border-top">
+          <p class="text-muted">Shop.co © 2000-2023, All Rights Reserved</p>
+          <ul class="list-unstyled d-flex">
+            <li class=""><a class="link-dark" href="#"><img src="./image/logo/visa.svg" alt="visa"></a></li>
+            <li class=""><a class="link-dark" href="#"><img src="./image/logo/r-y.svg" alt="r-y-pay"></a></li>
+            <li class=""><a class="link-dark" href="#"><img src="./image/logo/pal-pay.svg" alt=""></a></li>
+            <li class=""><a class="link-dark" href="#"><img src="./image/logo/apple-pay.svg" alt="apple-pay"></a></li>
+            <li class=""><a class="link-dark" href="#"></a><img src="./image/logo/gg-pay.svg" alt="google-pay"></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="script.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
